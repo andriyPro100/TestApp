@@ -1,6 +1,5 @@
 import React, {Dispatch, SetStateAction, useState} from 'react'
 import {Transition} from '@headlessui/react'
-import Button from "../../../test-app/test-app/src/Button";
 import AddClientForm from "./AddClientForm";
 
 export interface ModalProps {
