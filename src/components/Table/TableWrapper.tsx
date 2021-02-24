@@ -22,7 +22,6 @@ const GET_CLIENT = gql`
     }`
 
 function useClients() {
-    console.log("query....")
     return useQuery("getClients", async () => {
         const data = await request(
             endpoint, GET_CLIENT)
@@ -59,6 +58,5 @@ export default function TableWrapper () {
                     </div>
                 </div>)}
         </div>
-
     )
 }

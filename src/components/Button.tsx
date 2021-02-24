@@ -4,7 +4,7 @@ export interface ButtonProps {
     text: string
     color: string
     onClick?: React.MouseEventHandler<HTMLButtonElement>
-    type?: "submit"
+    type?: "submit"|"button"
 }
 
 export default function Button ({text, color, onClick, type}:ButtonProps) {
