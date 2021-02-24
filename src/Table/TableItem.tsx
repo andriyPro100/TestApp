@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from "./Button";
+import Button from "../Button";
 
-export default function TableItem () {
+export default function TableItem ({data}:any) {
     return (
         <div>
             <tr className="content-between">
@@ -10,10 +10,10 @@ export default function TableItem () {
 
                         <div className="ml-6">
                             <div className="text-sm font-medium text-gray-900">
-                                Jane Cooper
+                                {data.firstName} {data.lastName}
                             </div>
                             <div className="text-sm text-gray-500">
-                                jane.cooper@example.com
+                                {data.phone}
                             </div>
                         </div>
                     </div>
