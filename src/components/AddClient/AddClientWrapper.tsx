@@ -3,7 +3,7 @@ import ModalWrapper from "./ModalWrapper";
 import Button from "../Button";
 
 
-const AddNewClient = () => {
+const AddClientWrapper = () => {
     const [openModal, setOpenModal] = useState(false)
 
     return (
@@ -14,4 +14,4 @@ const AddNewClient = () => {
     )
 }
 
-export default AddNewClient;
+export default AddClientWrapper;

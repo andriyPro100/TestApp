@@ -8,6 +8,7 @@ import {
     QueryClientProvider,
 } from "react-query";
 
+export const endpoint = "https://test-task.expane.pro/api/graphql"
 
 const client = new QueryClient()
 

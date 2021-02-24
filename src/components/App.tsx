@@ -1,6 +1,7 @@
 import React from 'react';
 import TableWrapper from "./Table/TableWrapper";
-import AddNewClient from "./AddClient/AddNewClient";
+import AddClientWrapper from "./AddClient/AddClientWrapper";
+
 
 
 const App: React.FC = () => {
@@ -8,7 +9,7 @@ const App: React.FC = () => {
     return (
         <div>
             <div className="container mx-auto my-10">
-                <AddNewClient/>
+                <AddClientWrapper/>
                 <TableWrapper />
             </div>
         </div>
